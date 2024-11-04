@@ -10,4 +10,7 @@ public Task (int id, string description){
 ID = id;
 Description = description;
 IsComplete = false;}
+
+public void MarkAsComplete(){
+IsComplete = true;}
 }
