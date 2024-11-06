@@ -13,4 +13,13 @@ IsComplete = false;}
 
 public void MarkAsComplete(){
 IsComplete = true;}
+
+
+public override string ToString()
+{
+    string status = IsComplete ? "Completed" : "Pending";
+    return $"[{ID}] {Description} - {status}";
+}
+
+
 }
