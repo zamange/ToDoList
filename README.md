@@ -41,14 +41,14 @@ Welcome to the **To-Do List App** 🎉, a simple command-line application built 
    git clone https://github.com/zamange/ToDoList.git
    cd ToDoListApp
 
-**Build the Project**:
+2. **Build the Project**:
     ```bash
     Copy code
     dotnet build
 
 
 
-**Run the Application**:
+3. **Run the Application**:
     ```bash
     Copy code
     dotnet run
@@ -60,7 +60,7 @@ Follow the on-screen instructions to manage tasks:
 Choose an option by entering a number (1-5).
 Optionally, provide task details (ID or description) as prompted.
 
-**Menu Options**
+1. **Menu Options**
     ```markdown
     1️⃣ Add a new task: Enter a description, and the app will assign a unique ID to the task.
     2️⃣ View tasks: Displays all tasks with their ID, description, and status.
@@ -68,19 +68,20 @@ Optionally, provide task details (ID or description) as prompted.
     4️⃣ Delete a task: Enter the task ID to remove it from the list.
     5️⃣ Exit: Close the application.
 
-## Example Usage
+1. ## Example Usage
+   ```bash
 
-Copy code
-========================================
-        🌟 Welcome to the To-Do List App 🌟
-========================================
-Choose an option:
-1️⃣  ➔ Add a new task
-2️⃣  ➔ View tasks
-3️⃣  ➔ Mark task as complete
-4️⃣  ➔ Delete a task
-5️⃣  ➔ Exit
-➡️  Enter your choice (1-5):
+   Copy code
+   ========================================
+           🌟 Welcome to the To-Do List App 🌟
+   ========================================
+   Choose an option:
+   1️⃣  ➔ Add a new task
+   2️⃣  ➔ View tasks
+   3️⃣  ➔ Mark task as complete
+   4️⃣  ➔ Delete a task
+   5️⃣  ➔ Exit
+   ➡️  Enter your choice (1-5):
 
 ## Code Overview
 Program.cs
