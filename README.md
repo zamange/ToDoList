@@ -60,7 +60,7 @@ Follow the on-screen instructions to manage tasks:
 Choose an option by entering a number (1-5).
 Optionally, provide task details (ID or description) as prompted.
 
-1. **Menu Options**
+**Menu-Options**
     ```markdown
     1️⃣ Add a new task: Enter a description, and the app will assign a unique ID to the task.
     2️⃣ View tasks: Displays all tasks with their ID, description, and status.
